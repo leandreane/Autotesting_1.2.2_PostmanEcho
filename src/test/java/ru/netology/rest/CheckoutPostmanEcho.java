@@ -22,7 +22,7 @@ public class CheckoutPostmanEcho {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("date", equalTo("I love FC Spartak (ФК Спартак)"))
+                .body("data", equalTo("I love FC Spartak (ФК Спартак)"))
         ;
     }
 }
